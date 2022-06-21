@@ -1,0 +1,48 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    /* font-family: Gotham Rounded; */
+  }
+
+    body {
+        padding: 0;
+        margin: 0;
+        background-color: bisque;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+  .container {
+      background-color: red;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      width: 500px;
+      height: 500px;
+  }
+
+  .timer {
+      background-color: blue;
+      width: 500px;
+      height: 50px;
+  }
+
+  .quiz-box {
+      background-color: aqua;
+      display: block;
+      visibility: hidden;
+  }
+
+  .question {
+      background-color: green;
+  }
+
+  .answers {
+      background-color: brown;
+  }
+
+  .controls {
+      background-color: yellow;
+  }
